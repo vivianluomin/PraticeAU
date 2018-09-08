@@ -16,6 +16,14 @@ public class ZCGGzixulie {
 
     }
 
+    public static int f(int t[],int n){
+        if(n>0){
+            return t[n-1]+f(t,n-1);
+        }else {
+            return 2;
+        }
+    }
+
     public static int getS(String s,String t){
 
         int[][] value = new int[s.length()+1][t.length()+1];
