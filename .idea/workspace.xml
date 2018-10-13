@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f159b2c5-aa77-46bd-a471-f63e3443dd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/解救小易.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/统计回文.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,12 +16,14 @@
     <session id="907532749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.35" value="3" />
@@ -30,32 +32,34 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="19" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13349" />
-          <entry key="txt" value="129" />
+          <entry key="java" value="13957" />
+          <entry key="txt" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13349" />
-          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="JAVA" value="13957" />
+          <entry key="PLAIN_TEXT" value="141" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/java/lang/String.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23688">
-              <caret line="712" selection-start-line="712" selection-end-line="712" />
+            <state relative-caret-position="35">
+              <caret line="702" column="5" lean-forward="true" selection-start-line="702" selection-start-column="5" selection-end-line="702" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -128,17 +132,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/不要二.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
+            <state relative-caret-position="936">
               <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/解救小易.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="34" column="32" lean-forward="true" selection-end-line="40" />
+            <state relative-caret-position="108">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/统计回文.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="7" column="33" lean-forward="true" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -169,6 +182,9 @@
         <option value="$PROJECT_DIR$/src/幸运的袋子.java" />
         <option value="$PROJECT_DIR$/src/不要二.java" />
         <option value="$PROJECT_DIR$/src/解救小易.java" />
+        <option value="$PROJECT_DIR$/src/dex.java" />
+        <option value="$PROJECT_DIR$/src/DEX.java" />
+        <option value="$PROJECT_DIR$/src/统计回文.java" />
       </list>
     </option>
   </component>
@@ -183,6 +199,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,13 +218,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538908799342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539438866438" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -221,9 +237,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.zhufangzi">
+  <component name="RunManager" selected="Application.统计回文">
     <configuration name="颜色混合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="颜色混合" />
+      <module name="IntellijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="统计回文" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="统计回文" />
+      <module name="IntellijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DEX" />
       <module name="IntellijProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,13 +273,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dafan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dafan" />
-      <module name="IntellijProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="zhufangzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zhufangzi" />
       <module name="IntellijProject" />
@@ -259,16 +282,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.zhufangzi" />
-      <item itemvalue="Application.dafan" />
       <item itemvalue="Application.aaaa" />
       <item itemvalue="Application.颜色混合" />
+      <item itemvalue="Application.DEX" />
+      <item itemvalue="Application.统计回文" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.统计回文" />
+        <item itemvalue="Application.DEX" />
         <item itemvalue="Application.zhufangzi" />
         <item itemvalue="Application.颜色混合" />
         <item itemvalue="Application.aaaa" />
-        <item itemvalue="Application.dafan" />
       </list>
     </recent_temporary>
   </component>
@@ -325,14 +350,21 @@
       <option name="project" value="LOCAL" />
       <updated>1538398212662</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="解救小易，纯数学题">
+      <created>1538908881422</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538908881422</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22050938" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,7 +401,8 @@
     <MESSAGE value="颜色混合，对矩阵求秩" />
     <MESSAGE value="幸运的袋子，利用DFS求真子集，然后根据条件剪枝" />
     <MESSAGE value="利用数学知识，把在同一行或者同一列的满足条件的剔除" />
-    <option name="LAST_COMMIT_MESSAGE" value="利用数学知识，把在同一行或者同一列的满足条件的剔除" />
+    <MESSAGE value="解救小易，纯数学题" />
+    <option name="LAST_COMMIT_MESSAGE" value="解救小易，纯数学题" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gupai.java" />
@@ -389,13 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/aaaa.java" />
     <entry file="file://$PROJECT_DIR$/src/dafan.java" />
-    <entry file="jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23688">
-          <caret line="712" selection-start-line="712" selection-end-line="712" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DEX.java" />
     <entry file="file://$PROJECT_DIR$/src/zhufangzi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -440,15 +467,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/不要二.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
+        <state relative-caret-position="936">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/解救小易.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="34" column="32" lean-forward="true" selection-end-line="40" />
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="702" column="5" lean-forward="true" selection-start-line="702" selection-start-column="5" selection-end-line="702" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/统计回文.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="33" lean-forward="true" selection-end-line="34" />
         </state>
       </provider>
     </entry>
