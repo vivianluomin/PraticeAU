@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f159b2c5-aa77-46bd-a471-f63e3443dd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MaxPointOnAline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortLink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,7 +16,7 @@
     <session id="907532749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -37,47 +37,39 @@
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.open.time.64" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
-          <entry key="java" value="25" />
+          <entry key="java" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="17152" />
-          <entry key="txt" value="219" />
+          <entry key="java" value="17693" />
+          <entry key="txt" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17152" />
-          <entry key="PLAIN_TEXT" value="219" />
+          <entry key="JAVA" value="17693" />
+          <entry key="PLAIN_TEXT" value="245" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/颜色混合.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/幸运的袋子.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,14 +136,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaxPointOnAline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="55" column="19" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="144">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SortLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -198,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/MinimunDepthBinayTree.java" />
         <option value="$PROJECT_DIR$/src/EvaluteExpression.java" />
         <option value="$PROJECT_DIR$/src/MaxPointOnAline.java" />
+        <option value="$PROJECT_DIR$/src/SortLink.java" />
       </list>
     </option>
   </component>
@@ -208,10 +210,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="37" />
-    <option name="y" value="56" />
+    <option name="x" value="35" />
+    <option name="y" value="55" />
     <option name="width" value="1800" />
-    <option name="height" value="957" />
+    <option name="height" value="959" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -246,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540738152131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541164926331" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -345,7 +347,9 @@
       <option name="presentableId" value="Default" />
       <updated>1534503024627</updated>
       <workItem from="1540646123457" duration="4259000" />
-      <workItem from="1540735201438" duration="2883000" />
+      <workItem from="1540735201438" duration="3368000" />
+      <workItem from="1540968273403" duration="501000" />
+      <workItem from="1541162754348" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="数列还原，其实就是用子集树进行全排列">
       <created>1535292579245</created>
@@ -424,17 +428,24 @@
       <option name="project" value="LOCAL" />
       <updated>1540650362426</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="给N个点，找到点最多的一条直线">
+      <created>1540738299495</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1540738299495</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7142000" />
+    <option name="totallyTimeSpent" value="10269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16286863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,7 +493,8 @@
     <MESSAGE value="解救小易，主要是找到3个f相当于2分g" />
     <MESSAGE value="得到一棵树的最小depth" />
     <MESSAGE value="算术表达式计算，主要是栈的运用和正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="算术表达式计算，主要是栈的运用和正则表达式" />
+    <MESSAGE value="给N个点，找到点最多的一条直线" />
+    <option name="LAST_COMMIT_MESSAGE" value="给N个点，找到点最多的一条直线" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gupai.java" />
@@ -590,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/java/math/BigDecimal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98316">
-          <caret line="2799" selection-start-line="2799" selection-end-line="2799" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EvaluteExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -604,13 +609,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_112/jre/lib/rt.jar!/java/math/BigDecimal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98316">
+          <caret line="2799" selection-start-line="2799" selection-end-line="2799" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaxPointOnAline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="55" column="19" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SortLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
