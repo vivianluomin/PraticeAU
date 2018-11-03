@@ -41,6 +41,30 @@ public class SortLink {
         }
 
     }
+
+    public ListNode insertionSortList(ListNode head){
+
+        if(head == null || head.next == null){
+            return head;
+        }
+        ListNode h ;
+        ListNode pre ;
+        ListNode help = new ListNode(0);//辅助结点
+        help.next = null;
+        h = head;
+        while(h!=null){
+            ListNode next = h.next;
+            pre = help;
+            while (pre.next!=null && pre.next.val<h.val){
+                pre = pre.next;
+            }
+            h.next = pre.next;
+            pre.next = h;
+            h = next;
+        }
+
+        return help.next;
+    }
 }
 
  class ListNode {
