@@ -65,6 +65,68 @@ public class SortLink {
 
         return help.next;
     }
+
+    public void reorderList(ListNode head) {
+        ListNode h = head;
+        ListNode hh = null;
+        if(head == null ||head.next == null){
+            return;
+        }
+        int n = 0;
+        while (h!=null){
+            ListNode x = new ListNode(h.val);
+            h = h.next;
+            x.next = hh;
+            hh = x;
+            n++;
+        }
+
+        int mid = n/2;
+
+        ListNode reh = null;
+        ListNode p = null;
+        h = head;
+        for(int i = 0;i<mid;i++){
+            if(reh == null){
+                p = reh = h;
+                h = h.next;
+                p =  p.next = hh;
+            }else {
+                p = p.next = h;
+                h = h.next;
+                p = p.next = hh;
+            }
+
+            hh = hh.next;
+            p.next = null;
+        }
+        if(n- mid*2 !=0){
+
+            p =p.next = h;
+            h= h.next;
+            p.next = null;
+        }
+
+        head = reh;
+
+
+    }
+
+    public static void main(String[] args){
+        ListNode head = new ListNode(1);
+        ListNode next = new ListNode(2);
+        ListNode node = new ListNode(3);
+        head.next = next;
+        next.next = node;
+        node.next = null;
+        new SortLink().reorderList(head);
+        while (head!=null){
+
+            System.out.println(head.val);
+            head = head.next;
+        }
+
+    }
 }
 
  class ListNode {
