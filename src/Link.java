@@ -35,6 +35,37 @@ public class Link {
 
     }
 
+
+    public RandomListNode copyRandomList(RandomListNode head) {
+
+        RandomListNode h = null;
+        RandomListNode tail = null;
+        RandomListNode p = head;
+        while (p!=null){
+            int la= p.lable;
+            RandomListNode node = new RandomListNode(la);
+            node.random = p.random;
+            node.next = null;
+            if(h==null){
+                tail = h = node;
+            }else {
+                tail = tail.next = node;
+            }
+
+            p = p.next;
+        }
+
+        return h;
+    }
+
+    private class RandomListNode{
+        int lable;
+        RandomListNode next,random;
+        RandomListNode(int x){
+            this.lable = x;
+        }
+    }
+
     private class ListNode {
     int val;
     ListNode next;

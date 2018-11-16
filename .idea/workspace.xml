@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f159b2c5-aa77-46bd-a471-f63e3443dd19" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordBreak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
     <session id="907532749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -41,11 +41,11 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.60" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.open.time.64" value="2" />
+          <entry key="project.open.time.64" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,14 +62,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="22582" />
-          <entry key="txt" value="488" />
+          <entry key="java" value="22838" />
+          <entry key="txt" value="533" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22582" />
-          <entry key="PLAIN_TEXT" value="488" />
+          <entry key="JAVA" value="22838" />
+          <entry key="PLAIN_TEXT" value="533" />
         </counts>
       </usages-collector>
     </session>
@@ -127,20 +127,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="799">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#875#876#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="514">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/MaxPointOnAline.java" />
         <option value="$PROJECT_DIR$/src/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/SortLink.java" />
-        <option value="$PROJECT_DIR$/src/Link.java" />
         <option value="$PROJECT_DIR$/src/WordBreak.java" />
+        <option value="$PROJECT_DIR$/src/Link.java" />
       </list>
     </option>
   </component>
@@ -369,7 +373,8 @@
       <workItem from="1541320748913" duration="135000" />
       <workItem from="1541770111023" duration="6614000" />
       <workItem from="1541813753304" duration="3172000" />
-      <workItem from="1541929733532" duration="1737000" />
+      <workItem from="1541929733532" duration="2569000" />
+      <workItem from="1542338787439" duration="1315000" />
     </task>
     <task id="LOCAL-00001" summary="数列还原，其实就是用子集树进行全排列">
       <created>1535292579245</created>
@@ -490,17 +495,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541776792626</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="是否可以分割字符串，使用一个一位数组，记录下当s的长度为i时，是否可以分割">
+      <created>1541933251128</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1541933251128</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31552000" />
+    <option name="totallyTimeSpent" value="33699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1769437" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -554,7 +566,8 @@
     <MESSAGE value="将链表的后面一般和前面一半合并。我的做法不好，应该用快慢指针，找到中间节点，然后合并两个链表" />
     <MESSAGE value="利用快慢指针判断是否有环路，然后记录下相遇的位置，将slow放回head，同速前进，相遇的地方就是环路开始的地方" />
     <MESSAGE value="使用深度优先遍历，使用单词分割" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用深度优先遍历，使用单词分割" />
+    <MESSAGE value="是否可以分割字符串，使用一个一位数组，记录下当s的长度为i时，是否可以分割" />
+    <option name="LAST_COMMIT_MESSAGE" value="是否可以分割字符串，使用一个一位数组，记录下当s的长度为i时，是否可以分割" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gupai.java" />
@@ -693,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -716,10 +722,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="41" selection-start-column="6" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="514">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
           </folding>
         </state>
       </provider>
