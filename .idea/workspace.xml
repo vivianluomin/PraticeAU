@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f159b2c5-aa77-46bd-a471-f63e3443dd19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SearchAndSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Link.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +16,7 @@
     <session id="907532749">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.18" value="1" />
@@ -44,32 +44,34 @@
           <entry key="project.open.time.64" value="3" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.82" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="29" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="22838" />
-          <entry key="txt" value="533" />
+          <entry key="dummy" value="9" />
+          <entry key="java" value="24372" />
+          <entry key="txt" value="543" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22838" />
-          <entry key="PLAIN_TEXT" value="533" />
+          <entry key="JAVA" value="24372" />
+          <entry key="PLAIN_TEXT" value="552" />
         </counts>
       </usages-collector>
     </session>
@@ -127,15 +129,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Link.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="55" selection-end-column="17" />
-              <folding>
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="584">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SearchAndSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -143,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
+            <state relative-caret-position="1800">
               <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -207,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/SortLink.java" />
         <option value="$PROJECT_DIR$/src/WordBreak.java" />
         <option value="$PROJECT_DIR$/src/Link.java" />
+        <option value="$PROJECT_DIR$/src/SearchAndSort.java" />
       </list>
     </option>
   </component>
@@ -228,7 +236,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,12 +257,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541817257332" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542438823152" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
@@ -271,14 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordBreak">
-    <configuration name="饥饿的小易" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="饥饿的小易" />
-      <module name="IntellijProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SearchAndSort">
     <configuration name="DEX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DEX" />
       <module name="IntellijProject" />
@@ -288,6 +289,13 @@
     </configuration>
     <configuration name="EvaluteExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EvaluteExpression" />
+      <module name="IntellijProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Search" />
       <module name="IntellijProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -328,28 +336,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zhufangzi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zhufangzi" />
-      <module name="IntellijProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.饥饿的小易" />
-      <item itemvalue="Application.zhufangzi" />
       <item itemvalue="Application.DEX" />
       <item itemvalue="Application.EvaluteExpression" />
       <item itemvalue="Application.SortLink" />
       <item itemvalue="Application.WordBreak" />
+      <item itemvalue="Application.SearchAndSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchAndSort" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.SortLink" />
         <item itemvalue="Application.EvaluteExpression" />
         <item itemvalue="Application.DEX" />
-        <item itemvalue="Application.zhufangzi" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +374,8 @@
       <workItem from="1541770111023" duration="6614000" />
       <workItem from="1541813753304" duration="3172000" />
       <workItem from="1541929733532" duration="2569000" />
-      <workItem from="1542338787439" duration="1315000" />
+      <workItem from="1542338787439" duration="2782000" />
+      <workItem from="1542429438513" duration="3111000" />
     </task>
     <task id="LOCAL-00001" summary="数列还原，其实就是用子集树进行全排列">
       <created>1535292579245</created>
@@ -502,17 +503,24 @@
       <option name="project" value="LOCAL" />
       <updated>1541933251128</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="赋值链表">
+      <created>1542372801086</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1542372801086</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33699000" />
+    <option name="totallyTimeSpent" value="38277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16621985" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16823056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -567,7 +575,8 @@
     <MESSAGE value="利用快慢指针判断是否有环路，然后记录下相遇的位置，将slow放回head，同速前进，相遇的地方就是环路开始的地方" />
     <MESSAGE value="使用深度优先遍历，使用单词分割" />
     <MESSAGE value="是否可以分割字符串，使用一个一位数组，记录下当s的长度为i时，是否可以分割" />
-    <option name="LAST_COMMIT_MESSAGE" value="是否可以分割字符串，使用一个一位数组，记录下当s的长度为i时，是否可以分割" />
+    <MESSAGE value="赋值链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="赋值链表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/gupai.java" />
@@ -706,6 +715,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -720,24 +739,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
+    <entry file="file://$PROJECT_DIR$/src/Link.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="584">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Link.java">
+    <entry file="file://$PROJECT_DIR$/src/SearchAndSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="55" selection-end-column="17" />
-          <folding>
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="511">
+          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
         </state>
       </provider>
     </entry>
